@@ -62,9 +62,7 @@ export const Work = () => {
                   SOLARIS SURGE ENERGY SOLUTIONS
                 </h3>
                 <button className="mt-4 px-4 py-2 text-sm font-semibold text-white bg-teal-500 rounded hover:bg-teal-700">
-                  <Link to="https://solarisurge.netlify.app/">
-                    Learn More
-                  </Link>
+                  <Link to="https://solarisurge.netlify.app/">Learn More</Link>
                 </button>
               </div>
             </div>
@@ -116,7 +114,10 @@ export const Work = () => {
               <div className="absolute inset-0 bg-black bg-opacity-40 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center">
                 <h3 className="text-white text-lg font-bold">TRAVELSPHERE</h3>
                 <button className="mt-4 px-4 py-2 text-sm font-semibold text-white bg-teal-500 rounded hover:bg-teal-700">
-                  <Link> Learn More</Link>
+                  <Link to="https://bus-booking-system1.netlify.app/">
+                    {" "}
+                    Learn More
+                  </Link>
                 </button>
               </div>
             </div>

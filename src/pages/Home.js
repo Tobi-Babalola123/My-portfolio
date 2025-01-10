@@ -48,7 +48,7 @@ const Home = () => {
           <h1 className="text-6xl font-cursive font-bold mb-4">
             Tobi Babalola
           </h1>
-          <p className="text-lg">GRAPHIC & WEB DESIGNER</p>
+          <p className="text-lg">WEB DEVELOPER & GRAPHIC DESIGNER</p>
         </motion.div>
       </header>
 
@@ -251,7 +251,7 @@ const Home = () => {
             {/* Work Item */}
             <div className="relative group">
               <img
-                src="/Assets/health-app.png" // Replace with your image URL
+                src="/Assets/healthsphere.png" // Replace with your image URL
                 alt="Netlist"
                 className="w-full h-48 object-cover rounded-lg"
               />
@@ -260,7 +260,7 @@ const Home = () => {
                   HEALTH MONITORING APP
                 </h3>
                 <button className="mt-4 px-4 py-2 text-sm font-semibold text-white bg-teal-500 rounded hover:bg-teal-700">
-                  <Link to="https://health-monitoring-app-react.netlify.app/">
+                  <Link to="https://health-monitoring-app2.netlify.app/">
                     Learn More
                   </Link>
                 </button>
@@ -295,7 +295,10 @@ const Home = () => {
               <div className="absolute inset-0 bg-black bg-opacity-40 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center">
                 <h3 className="text-white text-lg font-bold">TRAVELSPHERE</h3>
                 <button className="mt-4 px-4 py-2 text-sm font-semibold text-white bg-teal-500 rounded hover:bg-teal-700">
-                  <Link> Learn More</Link>
+                  <Link to="https://bus-booking-system1.netlify.app/">
+                    {" "}
+                    Learn More
+                  </Link>
                 </button>
               </div>
             </div>
